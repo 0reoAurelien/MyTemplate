@@ -1,0 +1,34 @@
+# Ignore build files
+/build/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.a
+*.lib
+
+# Ignore CMake files
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/Makefile
+
+# Ignore generated binaries
+/bin/
+*.out
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore VSCode settings (if using VSCode)
+.vscode/
+
+# Ignore JetBrains IDEs (CLion, etc.)
+.idea/
+
+# Ignore GoogleTest build artifacts
+/gtest/
